@@ -62,6 +62,6 @@ export class SlotsService {
   }
 
   async findAll(): Promise<Slot[]> {
-    return this.slotModel.find().exec();
+    return this.slotModel.find();
   }
 }
